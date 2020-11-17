@@ -8,7 +8,7 @@
 body {
   header {
     .top {
-      height: 17px;
+      height: 20px;
       background-color: grey;
       display: flex;
       justify-content: center;
@@ -27,6 +27,7 @@ body {
       justify-content: space-between;
 
       width: 80%;
+
       .list {
         width: 30%;
         ul {
@@ -42,6 +43,13 @@ body {
           }
         }
       }
+      .center {
+        h4 {
+          size: 20px;
+          font-family: Georgia, "Times New Roman", Times, serif;
+          color: rgb(235, 145, 10);
+        }
+      }
     }
 
     .basket {
@@ -53,7 +61,7 @@ body {
   }
   main {
     .image_top {
-      .text {
+      .text { 
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -69,17 +77,17 @@ body {
       background-position: left;
       background-size: cover;
     }
-    .note {
-      margin-top: 1.5rem;
+
+    .note { color: rgb(165, 135, 135);
+      margin-top: 1rem;
       display: flex;
       justify-content: center;
+      margin-bottom: 1.7rem;
     }
-    .sum_div {
-      margin-top: 1rem;
-      width: auto;
-      display: flex;
+    
     }
-  }
+  
+
   footer {
     background-color: gray;
     .footer_center {

@@ -5,7 +5,7 @@
 }
 
 body header .top {
-  height: 17px;
+  height: 20px;
   background-color: grey;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -71,6 +71,12 @@ body nav .main-div .list ul li a {
           flex-direction: row;
 }
 
+body nav .main-div .center h4 {
+  size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #eb910a;
+}
+
 body nav .basket {
   width: 10px;
   height: 10px;
@@ -109,21 +115,15 @@ body main .image_top .text p {
 }
 
 body main .note {
-  margin-top: 1.5rem;
+  color: #a58787;
+  margin-top: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-body main .sum_div {
-  margin-top: 1rem;
-  width: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  margin-bottom: 1.7rem;
 }
 
 body footer {
